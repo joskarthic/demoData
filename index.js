@@ -30,7 +30,7 @@ function getCamera(){
 
 
 
-// Geo Location
+// Geo Location and DB creation 
 function getCurrentLocation(){
 	navigator.geolocation.getCurrentPosition(onSuccess, onError,{ timeout: 5000,enableHighAccuracy: true });
 }
